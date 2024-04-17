@@ -8,6 +8,8 @@
 - Catalina （[一些说明](#Catalina)）
 - BigSur
 - Monterey
+- Ventura
+- Sonoma （[一些说明](#Sonoma)）
 
 > 如果你发现此efi其他问题或有现有问题解决办法欢迎[lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)
 
@@ -36,7 +38,7 @@
 - type-C 耳机接口
 - 蓝牙 连接耳机，手机
 - 3.5mm/type-C/蓝牙耳机麦克风
-- 蓝牙键鼠（Monterey）
+- 蓝牙键鼠（Monterey & Sonoma）
 - 触控板
 - 键盘
 - `F1` `F2` `F3` `F9`快捷键
@@ -52,6 +54,13 @@
 1. v9.0开始不再支持Catalina，若要使用请下载v9以前的版本
 2. 并将Kexts里的[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)换成Catalina的
 
+### Sonoma
+1. 可能需要将config.plist中的`SecureBootModel`改为`Disabled`
+2. 并将Kexts里的[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)换成Sonoma的
+
+## 提示
+1. 需要让Kexts里的[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)保持与你的系统对应
+
 # 感谢
 - [Acidanthera](https://github.com/acidanthera) 团队，以及其维护的 [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)，和 [Lilu](https://github.com/acidanthera/Lilu)，[VirtualSMC](https://github.com/acidanthera/VirtualSMC)，[AppleALC](https://github.com/acidanthera/AppleALC)，[VoodooPS2](https://github.com/acidanthera/VoodooPS2)，[WhateverGreen](https://github.com/acidanthera/WhateverGreen)，[BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) 等众多内核扩展
 - [OpenIntelWireless](https://github.com/OpenIntelWireless) 团队，以及其维护的 [itlwm](https://github.com/OpenIntelWireless/itlwm)，[IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
@@ -60,4 +69,5 @@
 - [daliansky](https://github.com/daliansky) 更新的 [OS-X-USB-Inject-All](https://github.com/daliansky/OS-X-USB-Inject-All) 和 [黑果小兵的部落阁](https://blog.daliansky.net/) 提供的教程和镜像下载
 - [Xjn´s Blog](https://blog.xjn819.com)
 - Apple 的 macOS
-- 以及[我](https://github.com/XingKong746)
+- [Starry Sky](https://github.com/XingKong746)
+- [WarmEpoch](https://github.com/WarmEpoch)
