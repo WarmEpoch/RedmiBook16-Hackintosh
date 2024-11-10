@@ -877,26 +877,26 @@
 		<false/>
 		<key>Generic</key>
 		<dict>
-			<key>AdviseFeatures</key>
-			<false/>
-			<key>MLB</key>
-			<string>C020093004NP8PGJC</string>
-			<key>MaxBIOSVersion</key>
-			<false/>
-			<key>ProcessorType</key>
-			<integer>0</integer>
-			<key>ROM</key>
-			<data>ESIzRFVm</data>
-			<key>SpoofVendor</key>
-			<false/>
-			<key>SystemMemoryStatus</key>
-			<string>Auto</string>
-			<key>SystemProductName</key>
-			<string>MacBookPro16,2</string>
-			<key>SystemSerialNumber</key>
-			<string>C02CCWZ5ML7H</string>
-			<key>SystemUUID</key>
-			<string></string>
+                <key>AdviseFeatures</key>
+                <false/>
+                <key>MLB</key>
+                <string>C02038401GUP8PGFB</string>
+                <key>MaxBIOSVersion</key>
+                <false/>
+                <key>ProcessorType</key>
+                <integer>0</integer>
+                <key>ROM</key>
+                <data>ESIzRFVm</data>
+                <key>SpoofVendor</key>
+                <false/>
+                <key>SystemMemoryStatus</key>
+                <string>Auto</string>
+                <key>SystemProductName</key>
+                <string>MacBookPro16,2</string>
+                <key>SystemSerialNumber</key>
+                <string>C02DF2YXML7H</string>
+                <key>SystemUUID</key>
+                <string>9A070C3B-8D8E-4962-8078-22E8CCA92B8E</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
