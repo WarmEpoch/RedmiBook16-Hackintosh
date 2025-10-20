@@ -4,6 +4,7 @@
 ### 支持安装的macOS 10.15~26
 > 安装macOS需要在BIOS中关闭安全启动
 - Catalina
+  - 没有WiFi尝试执行`sudo kextcache -i /`，或者Misc->Security->`SecureBootModel`:`Default`
 - BigSur
 - Monterey
 - Ventura
