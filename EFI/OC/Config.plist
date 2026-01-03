@@ -1060,18 +1060,6 @@
 				<key>Path</key>
 				<string>ResetNvramEntry.efi</string>
 			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Fix the inability to decrypt an encrypted APFS partition</string>
-				<key>Enabled</key>
-				<true/>
-				<key>LoadEarly</key>
-				<false/>
-				<key>Path</key>
-				<string>apfs_aligned.efi</string>
-			</dict>
 		</array>
 		<key>Input</key>
 		<dict>
